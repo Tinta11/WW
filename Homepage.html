@@ -57,6 +57,9 @@
         font-size: 16px;
         padding: 16px 32px;
       }
+      .page-footer {
+        background-color: #605e5d
+      }
       </style>
   </head>
 
@@ -67,7 +70,7 @@
       </a>
 
       <a class="navbar-text">
-        <img src="images/Logo.png" width="500" height="150" alt="">
+        <img src="images/Logo.png" width="500" height="150" alt="" href="Homepage.html">
       </a>
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -140,4 +143,60 @@
     <script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/popper.min.js"></script>
     <script src="https://getbootstrap.com/docs/4.1/dist/js/bootstrap.min.js"></script>
   </body>
+
+
+  <!-- Footer -->
+  <footer class="page-footer font-small unique-color-dark pt-4">
+
+      <!-- Footer Elements -->
+      <div class="container">
+
+        <!-- Call to action -->
+
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="Email List">
+          Sign Up for the Wine & Whine Email List
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Call to action -->
+
+      </div>
+      <!-- Footer Elements -->
+
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">© 2019 Copyright: Kelsey Beuning & Celina Bade
+      </div>
+      <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
 </html>
