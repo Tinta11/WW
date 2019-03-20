@@ -1,4 +1,4 @@
-var backgrounds = ['donnafugata_millenotte', 'Free Red Wine', 'Something Pretty', 'W Red', 'Wollersheim Prairie Fume']
+var backgrounds = ['Donnafugata Millenotte', 'Free Red Wine', 'Something Pretty', 'W Red', 'Wollersheim Prairie Fume']
 
 $( document ).ready(function(){
 
