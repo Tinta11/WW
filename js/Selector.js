@@ -1,5 +1,5 @@
 // three different variables for the different images
-var backgrounds = ['Mille E Una Notta Contessa Entellina', 'Pinot Noir Elgin Waterford Estate', 'Something Pretty', 'Waterford Estate Rose-Mary', 'Wollersheim Prairie Fume']
+var backgrounds = ['donnafugata_millenotte', 'Pinot Noir Elgin Waterford Estate', 'Something Pretty', 'Waterford Estate Rose-Mary', 'Wollersheim Prairie Fume']
 
 // Only fires logic after the page has fully loaded
 $( document ).ready(function(){
