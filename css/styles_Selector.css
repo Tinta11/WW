@@ -7,6 +7,8 @@ body {
   border: #ffffff 20px solid;
   padding: 0;
   margin: 0;
+  font-family: "Playfair Display";
+  font-style: italic
 }
 
 div {
