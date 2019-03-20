@@ -25,8 +25,8 @@ h1 {
   border: none;
   font-size: 26px;
   text-transform: uppercase;
-  color: #000000;
-  background-color: #ffffff;
+  color: black;
+  background-color: #eaeaea;
   font-weight: bold;
 }
 
@@ -37,5 +37,5 @@ h1:hover {
 p {
   position: fixed;
   bottom: 10px;
-  color: #eaeaea;
+  color: black;
 }
