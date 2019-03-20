@@ -49,6 +49,12 @@ p {
   font-family: "Playfair Display";
   font-style: italic;
 }
+
+a{
+  font-family: "Playfair Display";
+  font-style: italic;
+  color:  #721c09  
+}
 .button {
   border: none;
   outline: 0;
