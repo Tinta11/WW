@@ -1,13 +1,14 @@
 body {
-  background: url('../images/Mille E Una Notte Contessa Entellina.jpg') no-repeat center;
-  background-size: cover;
+  background: url('../images/donnafugata_millenotte.jpg')no-repeat center;
+  background-size: 50%;
   width: 100vw;
   height: 100vh;
   box-sizing: border-box;
   border: #ffffff 20px solid;
   padding: 0;
   margin: 0;
-  font-family: 'Helvetica'
+  font-family: "Playfair Display";
+  font-style: italic
 }
 
 div {
@@ -36,5 +37,5 @@ h1:hover {
 p {
   position: fixed;
   bottom: 10px;
-  color: #ffffff;
+  color: #eaeaea;
 }
